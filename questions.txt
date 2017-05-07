@@ -1,0 +1,12 @@
+1.  <stdint> is a header that conatains many new integer type rather than basic integer type.
+2.  They are unsigned integer type and its most significant bit is not reserved for digning.
+3.  BYTE-1byte, DWORD-4byte, LONG-4byte, WORD-2byte
+4.  0x42 0x4D
+5.  biSize is the size of image including pixels and padding but bfSize is the size of image including pixels, padding and also headers.
+6.  If biHeight of a bmp image is negative, it means the image is stored from top to bottom.
+7.  biBitCount
+8.  When we have no permission to access the file or when PC goes out of space.
+9.  Because we need only 1 quantity of sze mentioned from the file we ponted to.
+10. 3
+11. fssek allows us to rewind or forward the cursor within the file.
+12. It is the argument used in fssek function and tells us the current position in the file from where we can move the cursor back and forward.
