@@ -1,0 +1,7 @@
+0.  It is a pneumoconiosis caused by inhalation of very fine silicate or quartz dust.
+1.  It returns the time before and after each operations(load, check, size, unload)
+2.  16
+3.  to save memory and time. By passing reference instead of value, calculate() can access the latest variable data.
+4.  speller.c reads the file character by character until the end of file using for loop.I then check if the character is letter or apostrophe, then add the character to the word. If the word becomes greater than LENGTH, it ignores the word. If the word is digit, it ignores it.If there is valid word it is counted and check for spelling. It calculate the time of check. If the word is misspelled, it is printed. 
+5.  fgetc() reads the word character by character wheareas fscanf() reads the whole word at a time. we have to check if there is digit ao any other character in the word, that makes the word invalid. So for this purpose fgetc() is used.
+6.  to ensure that string cant be modified during execution. and DICTIONARY and LENGTH is defined as constant.
